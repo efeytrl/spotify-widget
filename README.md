@@ -55,7 +55,7 @@ npm run build:electron
 ## Application Installation (End Users)
 
 1. Go to the GitHub Releases page:
-   - `https://github.com/kroxlycode/spotify-widget/releases`
+   - `https://github.com/efeytrl/spotify-widget/releases`
 2. Download the latest installer:
    - `Spotify-Widget-Setup-x.x.x.exe`
 3. Run the installer and complete setup.
@@ -69,4 +69,4 @@ This project is licensed under the MIT License. See `LICENSE`.
 
 If this project helps you, you can support development via GitHub Sponsors:
 
-- `https://github.com/sponsors/kroxlycode`
+- `https://github.com/sponsors/efeytrl`
