@@ -1,9 +1,9 @@
 {
-  "appName": "Spotify Widget - Kroxly",
+  "appName": "Spotify Widget - efeytrl",
   "appIcon": "assets/favicon.ico",
   "trayIcon": "assets/favicon.png",
   "appUserModelId": "com.spotify.widget",
-  "githubUsername": "kroxlycode",
+  "githubUsername": "efeytrl",
   "githubRepo": "spotify-widget"
 }
 

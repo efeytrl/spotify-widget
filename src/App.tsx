@@ -131,7 +131,7 @@ export default function App() {
 
         <footer style={{ marginTop: 16, paddingTop: 12, borderTop: "1px solid #1f2a24", color: "#8ea097", fontSize: 12, display: "flex", justifyContent: "space-between", gap: 8, flexWrap: "wrap" }}>
           <span>Spotify Widget v1.0.5</span>
-          <span>Dev by Kroxly</span>
+          <span>Dev by efeytrl</span>
         </footer>
       </div>
     </div>

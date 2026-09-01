@@ -35,8 +35,8 @@ function formatEta(sec?: number) {
 export default function Version() {
   const [appName, setAppName] = useState("Spotify Widget");
   const [version, setVersion] = useState("-");
-  const [githubUser, setGithubUser] = useState("kroxlycode");
-  const [githubUrl, setGithubUrl] = useState("https://github.com/kroxlycode");
+  const [githubUser, setGithubUser] = useState("efeytrl");
+  const [githubUrl, setGithubUrl] = useState("https://github.com/efeytrl");
   const [state, setState] = useState<UpdateState>({ status: "idle" });
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState("");
@@ -48,8 +48,8 @@ export default function Version() {
     api.getVersionInfo?.().then((info: any) => {
       setAppName(info?.appName || "Spotify Widget");
       setVersion(info?.version || "-");
-      setGithubUser(info?.githubUsername || "kroxlycode");
-      setGithubUrl(info?.githubUrl || "https://github.com/kroxlycode");
+      setGithubUser(info?.githubUsername || "efeytrl");
+      setGithubUrl(info?.githubUrl || "https://github.com/efeytrl");
       if (info?.updateState) setState(info.updateState);
     });
 

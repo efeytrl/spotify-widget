@@ -4,7 +4,7 @@
   "description": "A desktop Spotify now-playing widget for Windows built with Electron, React, and TypeScript.",
   "main": "electron-build/main.js",
   "type": "module",
-  "author": "Kroxly Code <kroxlycode@users.noreply.github.com> (https://github.com/kroxlycode)",
+  "author": "Efeytrl <efeytrl@users.noreply.github.com> (https://github.com/efeytrl)",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
@@ -17,7 +17,7 @@
     "dist": "npm run build && npm run build:electron && electron-builder"
   },
   "build": {
-    "appId": "com.kroxly.spotifywidget",
+    "appId": "com.efeytrl.spotifywidget",
     "productName": "Spotify-Widget",
     "artifactName": "${productName}-Setup-${version}.${ext}",
     "files": [
@@ -32,7 +32,7 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "kroxlycode",
+        "owner": "efeytrl",
         "repo": "spotify-widget"
       }
     ],

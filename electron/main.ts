@@ -88,7 +88,7 @@ const defaultConfig: AppConfig = {
     appIcon: "build/icon-256x256.ico",
     trayIcon: "build/icon-64x64.ico",
     appUserModelId: "com.spotify.widget",
-    githubUsername: "kroxlycode",
+    githubUsername: "efeytrl",
     githubRepo: "spotify-widget"
 };
 
@@ -354,7 +354,7 @@ function setupAutoUpdater() {
         emitUpdateState({
             status: "available",
             version: ver,
-            releaseNotesUrl: ver ? `https://github.com/${appConfig.githubUsername || "kroxlycode"}/${appConfig.githubRepo || "spotify-widget"}/releases/tag/v${ver}` : undefined,
+            releaseNotesUrl: ver ? `https://github.com/${appConfig.githubUsername || "efeytrl"}/${appConfig.githubRepo || "spotify-widget"}/releases/tag/v${ver}` : undefined,
             message: "Yeni sürüm bulundu."
         });
     });
@@ -1017,7 +1017,7 @@ ipcMain.handle("app:getHomeSummary", async () => {
 });
 
 ipcMain.handle("app:getVersionInfo", async () => {
-    const githubUsername = appConfig.githubUsername || "kroxlycode";
+    const githubUsername = appConfig.githubUsername || "efeytrl";
     return {
         version: app.getVersion(),
         appName: appConfig.appName,
